@@ -1,0 +1,51 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('assets/img/headerimg.jpg'); /* Add the path to your image */
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+header {
+    background: linear-gradient(to right, #118ab2, #06d6a0, #9d7cbf);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #333; /* Change to your preferred color on hover */
+}
+
