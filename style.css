@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('assets/img/headerimg.jpg'); /* Add the path to your image */
+    background-image: url('assets/img/headerimg.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     
@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #333; /* Change to your preferred color on hover */
+    color: #333; 
 }
 
 #hero{
