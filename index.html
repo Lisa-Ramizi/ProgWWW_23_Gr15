@@ -6,11 +6,11 @@
     <title>Relic Adventures</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
 </head>
-<body>
-   <!--Headeri--> 
+<body class="flex-container">
+   <!--Navi--> 
    <header>
     <div class="logo">Your Logo</div>
     <nav>
@@ -24,8 +24,69 @@
     </nav>
 </header>
 <!--Hero-->
-<h1>explore space wth us</h1>
+<div id="hero">
+    <div class="hero-items">
+        <h1>explore space with us</h1>
+        <button style="background-color: #3585a0; color: white; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; font-size: 16px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#5d9cf7'" onmouseout="this.style.backgroundColor='#3585a0'">Let's Go!</button>
+    </div>
+</div>
 
+<!-- Solar System Section -->
+<section class="solar-system">
+    <h2>The Solar System</h2>
+
+    <div class="planet-cards">
+        <div class="planet-card">
+            <h3>Mercury</h3>
+            <img src="assets/img/Mercury.png" alt="Mercury">
+            <p>The smallest planet in our solar system.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Venus</h3>
+            <img src="assets/img/Venus.png" alt="Venus">
+            <p>Known for its thick atmosphere and scorching temperatures.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Earth</h3>
+            <img src="assets/img/Earth.png" alt="Earth">
+            <p>The blue planet, home to a diverse range of life.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Mars</h3>
+            <img src="assets/img/Mars.png" alt="Mars">
+            <p>The red planet, known for its dusty surface.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Jupiter</h3>
+            <img src="assets/img/Jupiter.png" alt="Jupiter">
+            <p>The largest planet, a gas giant with a prominent Great Red Spot.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Saturn</h3>
+            <img src="assets/img/Saturn.png" alt="Saturn">
+            <p>Famous for its stunning ring system.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Uranus</h3>
+            <img src="assets/img/Uranus.png" alt="Uranus">
+            <p>An ice giant with a unique tilt on its rotational axis.</p>
+        </div>
+
+        <div class="planet-card">
+            <h3>Neptune</h3>
+            <img src="assets/img/Neptune.png" alt="Neptune">
+            <p>A distant ice giant with a vibrant blue color.</p>
+        </div>
+    </div>
+</section>
+
+</section>
 
 </body>
 </html>
