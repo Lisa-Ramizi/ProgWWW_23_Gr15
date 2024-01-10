@@ -26,10 +26,21 @@
 <!--Hero-->
 <div id="hero">
     <div class="hero-items">
-        <h1>explore space with us</h1>
-        <button style="background-color: #3585a0; color: white; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; font-size: 16px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#5d9cf7'" onmouseout="this.style.backgroundColor='#3585a0'">Let's Go!</button>
+        <h1>Explore space with us</h1>
+        <button id="startExploration" style="background-color: #3585a0; color: white; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; font-size: 16px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#5d9cf7'" onmouseout="this.style.backgroundColor='#3585a0'">Let's Go!</button>
     </div>
 </div>
+
+<script>
+    document.getElementById('startExploration').addEventListener('click', function() {
+        // Load the form.html content into the current page
+        fetch('form.html')
+            .then(response => response.text())
+            .then(html => {
+                document.body.innerHTML = html;
+            });
+    });
+</script>
 
     <!-- Solar System Section -->
     <section class="solar-system">
