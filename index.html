@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
 </head>
 <body class="flex-container">
    <!--Navi--> 
@@ -33,7 +35,6 @@
 
 <script>
     document.getElementById('startExploration').addEventListener('click', function() {
-        // Load the form.html content into the current page
         fetch('form.html')
             .then(response => response.text())
             .then(html => {
