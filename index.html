@@ -14,14 +14,13 @@
 <body class="flex-container">
    <!--Navi--> 
    <header>
-    <div class="logo">Your Logo</div>
+    <div class="logo">RELICO ADVENTURES</div>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#solar-system">Explore</a></li>
+            <li><a href="#andromeda">Beyond</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -34,17 +33,14 @@
 </div>
 
 <script>
-    document.getElementById('startExploration').addEventListener('click', function() {
-        fetch('form.html')
-            .then(response => response.text())
-            .then(html => {
-                document.body.innerHTML = html;
-            });
-    });
+document.getElementById('startExploration').addEventListener('click', function() {
+    window.location.href = 'form.html';
+});
+
 </script>
 
     <!-- Solar System Section -->
-    <section class="solar-system">
+    <section class="solar-system" id="solar-system">
         <h2 style="text-align: center; padding: 30px 0 0 0; color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">The Solar System</h2>
 
         <div class="planet-cards">
@@ -122,8 +118,12 @@
         </div>  
     </section>
 
+    <section class="between">
+        Beyond what the eye sees
+    </section>
+
     <!-- Andromeda Section -->
-    <section class="andromeda-section">
+    <section class="andromeda-section" id="andromeda">
         <div class="andromeda-content">
             <h2 style="color: #fff;">Andromeda Galaxy</h2>
             <img src="assets/img/andromeda.gif" alt="Andromeda Galaxy">
@@ -136,6 +136,10 @@
         </div>
     </section>
 
+    <!--Footeri-->
+    <footer style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        <p>&copy; Made with ♥ by Relico designers. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>

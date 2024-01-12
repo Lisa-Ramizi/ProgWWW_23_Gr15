@@ -2,6 +2,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+    }
+
 
 body {
     margin: 0;
@@ -140,30 +144,43 @@ nav a:hover {
 }
 
 .andromeda-section {
-    background-color: #1a1a1a; /* Dark background color */
-    padding: 60px 0;
+    background-color: rgb(202, 221, 255); 
+    padding: 10px 0;
     text-align: center;
 }
 
-.andromeda-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 .andromeda-content h2 {
-    color: #fff;
+    color: #333;
+    font-size: 1.7em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 .andromeda-content img {
     max-width: 100%;
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(240, 75, 75, 0.2);
+    border-radius: 15px; 
+    margin-top: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); 
 }
 
 .andromeda-content p {
-    color: #ccc;
-    font-size: 16px;
+    color: #333; 
+    font-size: 16px; 
     line-height: 1.6;
-    margin-top: 20px;
+    margin-top: 10px; 
 }
+
+.between {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+
+
