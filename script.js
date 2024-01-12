@@ -23,7 +23,6 @@ function saveFormData(firstName, lastName, email, appointmentDate) {
         
         var formDataArray = JSON.parse(localStorage.getItem("formData")) || [];
 
-
         var formData = {
             firstName: firstName,
             lastName: lastName,
@@ -33,10 +32,12 @@ function saveFormData(firstName, lastName, email, appointmentDate) {
 
         formDataArray.push(formData);
 
-        
         localStorage.setItem("formData", JSON.stringify(formDataArray));
+
+        console.log("Form data saved:", formDataArray);
     } else {
         console.error("Local storage is not supported in this browser.");
     }
 }
+
 

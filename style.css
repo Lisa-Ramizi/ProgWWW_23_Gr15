@@ -182,5 +182,54 @@ nav a:hover {
     font-size: 1.5em;
 }
 
+.footer {
+    background-color: #8a63d2;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 1px 1px 3px rgba(226, 214, 214, 0.8);
+}
+
+.icon-text {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.social-icons svg {
+    height: 40px;
+    width: 40px;
+    transition: transform 0.5s, opacity 0.3s;
+}
+
+.social-icons a:hover svg {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+
 
 
