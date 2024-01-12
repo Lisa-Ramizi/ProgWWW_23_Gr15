@@ -181,6 +181,31 @@ nav a:hover {
     border-radius: 20px;
     font-size: 1.5em;
 }
+.fun-facts {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.fun-fact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fun-fact {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
 
 .footer {
     background-color: #8a63d2;
